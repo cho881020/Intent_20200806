@@ -11,6 +11,7 @@
     tools:context=".FirstActivity">
 
     <Button
+        android:id="@+id/goBackToMainBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="메인으로 돌아가기" />
