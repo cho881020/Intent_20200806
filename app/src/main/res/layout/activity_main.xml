@@ -27,4 +27,16 @@
         android:layout_height="wrap_content"
         android:text="두번째 화면으로 메세지 전달" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="닉네임을 입력해주세요."
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="닉네임 변경" />
+
 </LinearLayout>
