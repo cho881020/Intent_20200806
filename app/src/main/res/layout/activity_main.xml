@@ -15,4 +15,14 @@
         android:layout_height="wrap_content"
         android:text="첫번째 액티비티로 이동" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="두번째 화면에 전달할 메세지 입력" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="두번째 화면으로 메세지 전달" />
+
 </LinearLayout>
