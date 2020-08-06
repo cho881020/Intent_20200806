@@ -19,5 +19,17 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        moveToSecondBtn.setOnClickListener {
+//            SecondActivity로 => 입력한 내용을 들고 => 이동하기
+            val inputMessage = messageEdt.text.toString()
+
+            val myIntent = Intent(this, SecondActivity::class.java)
+            
+//            만들어준 Intent 변수에 데이터를 이름표를 붙인 상태로 첨부
+            myIntent.putExtra("message", inputMessage)
+            
+            startActivity(myIntent)
+        }
+
     }
 }
