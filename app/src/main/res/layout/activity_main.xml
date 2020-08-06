@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/moveToFirstBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="첫번째 액티비티로 이동" />
