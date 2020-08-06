@@ -28,6 +28,7 @@
         android:text="두번째 화면으로 메세지 전달" />
 
     <TextView
+        android:id="@+id/nickNameTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -35,6 +36,7 @@
         android:layout_marginTop="10dp"/>
 
     <Button
+        android:id="@+id/changeNickNameBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="닉네임 변경" />
