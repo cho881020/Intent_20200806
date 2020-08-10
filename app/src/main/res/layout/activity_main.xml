@@ -66,5 +66,17 @@
         android:layout_height="wrap_content"
         android:text="문자 보내기 (SENDTO)" />
 
+    <Button
+        android:id="@+id/naverLinkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버로 가기" />
+
+    <Button
+        android:id="@+id/kakaoPlayStoreLinkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카카오톡 앱 다운로드 링크" />
+
 
 </LinearLayout>
